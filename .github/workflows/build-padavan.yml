@@ -44,8 +44,8 @@ jobs:
     - name: Set Golang
       run: |
         cd /opt/hostedtoolcache/go
-        rm -rf /opt/hostedtoolcache/go/1.14.15
-        cp -r 1.15.8 1.14.15
+        rm -rf /opt/hostedtoolcache/go/1.15.13
+        cp -r 1.16.5 1.15.13
     - name: Build Firmware
       env:
         TNAME: RM2100
